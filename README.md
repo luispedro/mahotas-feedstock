@@ -5,7 +5,7 @@ Home: http://luispedro.org/software/mahotas/
 
 Package license: MIT
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Mahotas: Computer Vision Library
 
@@ -72,6 +72,11 @@ Current build status
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/mahotas-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/mahotas-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/mahotas-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/mahotas-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/mahotas-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/mahotas-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mahotas/badges/version.svg)](https://anaconda.org/conda-forge/mahotas)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mahotas/badges/downloads.svg)](https://anaconda.org/conda-forge/mahotas)
 
 
 Updating mahotas-feedstock
