@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/mahotas-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/mahotas-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/mahotas-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/mahotas-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/mahotas-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/mahotas-feedstock/branch/master)
