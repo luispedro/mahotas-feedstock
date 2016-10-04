@@ -27,6 +27,11 @@ requirements:
     - numpy x.x
 
 test:
+  requires:
+    - nose
+    - scipy
+    - pillow
+
   imports:
     - mahotas
 
