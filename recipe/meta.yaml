@@ -30,6 +30,9 @@ test:
   imports:
     - mahotas
 
+  commands:
+    - mahotas-features.py --help
+
 about:
   home: http://luispedro.org/software/mahotas/
   license: MIT
