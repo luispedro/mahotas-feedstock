@@ -1,6 +1,6 @@
 {% set name = "mahotas" %}
-{% set version = "1.4.1" %}
-{% set sha256 = "40b2ee831b66247541706b28db0d4b187d051d5fda926a0c43912d27b3be50c0" %}
+{% set version = "1.4.3" %}
+{% set sha256 = "e113fb73f1f717f1a9124b41496b030628efb72a23b0150a42ecb18b08b030c4" %}
 
 package:
   name: {{ name|lower }}
@@ -19,7 +19,7 @@ source:
     - PR_81.diff
 
 build:
-  number: 2
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
