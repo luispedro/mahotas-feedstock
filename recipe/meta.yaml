@@ -56,7 +56,7 @@ about:
     Mahotas is a library of fast computer vision algorithms
     (all implemented in C++) operating over numpy arrays.
 
-  doc_url: http://mahotas.rtfd.io/
+  doc_url: http://mahotas.readthedocs.io/
   dev_url: https://github.com/luispedro/mahotas
 
 extra:
