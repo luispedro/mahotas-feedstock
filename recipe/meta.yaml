@@ -10,9 +10,16 @@ source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
+  patches:
+    # Adds a patch to get the result of running the test suite.
+    # Please see PR submitted upstream for more details.
+    #
+    # https://github.com/luispedro/mahotas/pull/81
+    #
+    - PR_81.diff
 
 build:
-  number: 1
+  number: 2
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -27,8 +34,16 @@ requirements:
     - numpy x.x
 
 test:
+  requires:
+    - nose
+    - scipy
+    - pillow
+
   imports:
     - mahotas
+
+  commands:
+    - mahotas-features.py --help
 
 about:
   home: http://luispedro.org/software/mahotas/
