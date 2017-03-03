@@ -13,6 +13,18 @@ Mahotas is a library of fast computer vision algorithms
 (all implemented in C++) operating over numpy arrays.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/mahotas-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/mahotas-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/mahotas-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/mahotas-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/mahotas-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/mahotas-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mahotas/badges/version.svg)](https://anaconda.org/conda-forge/mahotas)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mahotas/badges/downloads.svg)](https://anaconda.org/conda-forge/mahotas)
+
 Installing mahotas
 ==================
 
@@ -33,7 +45,6 @@ It is possible to list all of the versions of `mahotas` available on your platfo
 ```
 conda search mahotas --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -69,18 +80,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/mahotas-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/mahotas-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/mahotas-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/mahotas-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/mahotas-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/mahotas-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mahotas/badges/version.svg)](https://anaconda.org/conda-forge/mahotas)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mahotas/badges/downloads.svg)](https://anaconda.org/conda-forge/mahotas)
 
 
 Updating mahotas-feedstock
