@@ -1,6 +1,6 @@
 {% set name = "mahotas" %}
-{% set version = "1.4.3" %}
-{% set sha256 = "e113fb73f1f717f1a9124b41496b030628efb72a23b0150a42ecb18b08b030c4" %}
+{% set version = "1.4.4" %}
+{% set sha256 = "6544e87fea0b80a40e3e52fc360214814bf6e939c7b5b17e7f232a644e62c4c3" %}
 
 package:
   name: {{ name|lower }}
@@ -10,28 +10,23 @@ source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
-  patches:
-    # Adds a patch to get the result of running the test suite.
-    # Please see PR submitted upstream for more details.
-    #
-    # https://github.com/luispedro/mahotas/pull/81
-    #
-    - PR_81.diff
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
+  entry_points:
+    - mahotas-features = mahotas.features_cli:main
 
 requirements:
   build:
     - toolchain
     - python
     - setuptools
-    - numpy x.x
+    - numpy 1.11.*
 
   run:
     - python
-    - numpy x.x
+    - numpy >=1.11
 
 test:
   requires:
@@ -43,7 +38,7 @@ test:
     - mahotas
 
   commands:
-    - mahotas-features.py --help
+    - mahotas-features --help
 
 about:
   home: http://luispedro.org/software/mahotas/
