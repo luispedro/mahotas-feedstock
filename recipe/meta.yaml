@@ -1,6 +1,7 @@
 {% set name = "mahotas" %}
-{% set version = "1.4.6" %}
-{% set sha256 = "d2265c9b5e435afdf5368d790de906dfbdbf3071321ea921349057f399930836" %}
+{% set version = "1.4.7" %}
+{% set sha256 = "a2ca4cd8b33bfe56d646956c56b5de1087c9d44d579386b6b8ad19303272b496" %}
+
 
 package:
   name: {{ name|lower }}
@@ -43,7 +44,7 @@ test:
     - mahotas-features --help
 
 about:
-  home: http://luispedro.org/software/mahotas/
+  home: https://mahotas.readthedocs.io/
   license: MIT
   license_family: MIT
   license_file: COPYING
@@ -53,7 +54,7 @@ about:
     Mahotas is a library of fast computer vision algorithms
     (all implemented in C++) operating over numpy arrays.
 
-  doc_url: http://mahotas.readthedocs.io/
+  doc_url: https://mahotas.readthedocs.io/
   dev_url: https://github.com/luispedro/mahotas
 
 extra:
