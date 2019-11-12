@@ -1,6 +1,6 @@
 {% set name = "mahotas" %}
-{% set version = "1.4.8" %}
-{% set sha256 = "cb9264a7d9f84e639c920d486a81edcdc896b48d602ae2de9482483555ad967e" %}
+{% set version = "1.4.9" %}
+{% set sha256 = "4c65f462a09fe19dea4ac7b630039478e9691126e430ace485e965635e535f71" %}
 
 
 package:
