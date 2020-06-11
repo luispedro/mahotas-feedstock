@@ -1,6 +1,6 @@
 {% set name = "mahotas" %}
-{% set version = "1.4.9" %}
-{% set sha256 = "4c65f462a09fe19dea4ac7b630039478e9691126e430ace485e965635e535f71" %}
+{% set version = "1.4.10" %}
+{% set sha256 = "2e1bf5c058f439f2dab1b11d1bfe03d1d99b3761375a4a4159a9f379e0d9447e" %}
 
 
 package:
@@ -49,7 +49,7 @@ about:
   license_family: MIT
   license_file: COPYING
 
-  summary: "Mahotas: Computer Vision Library"
+  summary: 'Mahotas: Computer Vision Library'
   description: |
     Mahotas is a library of fast computer vision algorithms
     (all implemented in C++) operating over numpy arrays.
